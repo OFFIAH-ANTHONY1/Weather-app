@@ -10,31 +10,34 @@
     <div class="card">
       <div class="search">
         <input
-          id="search-input"
+          id="search-box"
           type="text"
           placeholder="Enter city name"
           spellcheck="false"
         />
-        <button id="submit-search">
+        <button id="search-btn">
           <img src="images/search.png" alt="search" />
         </button>
+      </div>
+      <div class="error">
+        <p>Invalid city name</p>
       </div>
       <div class="weather">
         <img src="images/heavy-rain.png" alt="rain" class="weather-icon" />
         <h1 id="temp">22°C</h1>
-        <h2 id="city">Ney York</h2>
+        <h2 id="city">New York</h2>
         <div class="details">
           <div class="column">
             <img src="images/weather.png" alt="humidity" width="90px" />
             <div>
-              <p class="humidity">50%</p>
+              <p id="humidity">50%</p>
               <p>Humidity</p>
             </div>
           </div>
           <div class="column">
             <img src="images/wind.png" alt="wind" width="90px" />
             <div>
-              <p class="humidity">15km/h</p>
+              <p id="wind">15km/h</p>
               <p>Wind speed</p>
             </div>
           </div>
